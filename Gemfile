@@ -22,7 +22,10 @@ end
 
 gem 'jquery-rails'
 
+gem "nokogiri", "~> 1.6.0"
+
 # Testing gems 
+gem 'rspec', '~> 2.14.1', :group => [:development, :test]
 gem 'rspec-rails', '~> 2.14.0', :group => [:development, :test]
 gem 'cucumber-rails', '~> 1.3.1', :group => [:test]
 gem 'capybara', '~>2.1.0', :group => [:test]
