@@ -25,6 +25,7 @@ gem 'jquery-rails'
 gem "nokogiri", "~> 1.6.0"
 
 # Testing gems 
+gem "webrat", "~> 0.7.3" :group => [:development, :test]
 gem 'rspec', '~> 2.14.1', :group => [:development, :test]
 gem 'rspec-rails', '~> 2.14.0', :group => [:development, :test]
 gem 'cucumber-rails', '~> 1.3.1', :group => [:test]
