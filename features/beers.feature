@@ -3,6 +3,7 @@ Feature: Manage Beers
   As a user
   I want to create new beers through a form
 
+@start
 Scenario: Start on the beer home page
   Given I have no beer
   And I am on the beer page
